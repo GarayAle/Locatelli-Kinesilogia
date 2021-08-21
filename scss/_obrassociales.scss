@@ -1,0 +1,33 @@
+#obrassociales-contenedor {
+    height: 450px;
+    background-image: url(../Multimedia/logos-obrassociales.jpg);
+    background-position: top ;
+    background-size: 90%;
+    background-repeat: no-repeat;
+
+    .encabezado-obrassociales {
+        color: #004100;
+        background-color: slategray;
+        font-family:'Poppins', sans-serif ;
+        font-size: 30px;
+    }
+
+    @media screen and (max-width: 740px) {
+
+        #obrassociales-contenedor  .encabezado-obrassociales {
+        width: 80%;
+        height: auto;
+
+        }
+
+    }
+
+
+
+
+}
+
+
+
+
+

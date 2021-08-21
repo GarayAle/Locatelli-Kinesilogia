@@ -1,0 +1,82 @@
+/*ANIDAMIENTO*/
+
+.barra { 
+    display: flex;
+    flex-direction:row ;
+    justify-content:space-around ;
+    align-items: center ;
+    padding: 3px;
+    background-color : rgba(0, 0, 0, 0.3);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: none;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+
+    .logo img{ 
+        width: 10%;
+    }
+  
+}
+
+.imagen-inicio {
+    background-image: linear-gradient(#265da5, #659be2);
+
+
+    .encabezado {
+        padding: 50px 60px 30px 60px;
+
+        .subtitulo {
+            color: #240625;
+            text-align: center;
+            font-size: 30px;
+            letter-spacing: 8px;
+            font-style: italic;
+
+            @media screen and (max-width: 740px) {
+
+                
+        
+              font-size: 15px ;
+        
+                
+            } 
+  
+        }
+    }
+    
+    
+}
+.navegacion{
+    .flexmenu {
+        background-color: white;
+        color: green;
+        padding: 20px;
+    }
+    a {
+        color: rgb(233, 236, 56) ;
+        font-family: 'Poppins', sans-serif ;
+        font-size: 15px;
+        letter-spacing: 3px;
+        word-spacing: 5px;
+        text-transform: uppercase;
+    }
+    
+}
+
+@media screen and (max-width: 740px) {
+
+    .subtitulo {
+
+      font-size: 10px ;
+    } 
+    
+} 
+
+

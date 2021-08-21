@@ -1,0 +1,32 @@
+.galeria {
+    background-image: linear-gradient(#265da5, #659be2);
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px;
+
+    .encabezado-instalaciones {
+        color: #004100 ;
+        background-color: slategray;
+        font-family: "Poppins", sans-serif;
+        text-transform: uppercase;
+        font-size: 30px;
+        text-align: center;
+    }
+    .instalaciones-contenedor {
+        height: 700px;
+        width: 50%;
+        margin: 0 auto;
+
+        .imagenes {
+            height: 600px;
+        }
+
+        .imagenes .img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+  
+}
+
