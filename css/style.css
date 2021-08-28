@@ -274,40 +274,38 @@
   height: 300px;
 }
 
-footer {
+.footerContenedor {
   color: #023e8a;
   font-family: "Poppins", sans-serif;
   background-image: linear-gradient(#265da5, #659be2);
   letter-spacing: 8px;
-  font-size: 10px;
-  width: 90%;
+  font-size: 20px;
+  width: 100%;
+  height: 250px;
   margin: 0 auto;
   padding: 30px;
-  text-align: center;
-  max-width: 1000px;
-  min-width: 300px;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
-footer .redes {
-  color: #023e8a;
-  font-size: 20px;
-  font-family: "Poppins", sans-serif;
+.footerContenedor .redes {
   width: 100%;
   max-width: 1000px;
   min-width: 300px;
   margin: 0 auto;
   display: flex;
+  text-align: center;
   flex-direction: column;
+  align-items: center;
 }
-footer .navegacion-footer a {
+.footerContenedor nav a {
   color: #e9ec38;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
-  letter-spacing: 5px;
-  word-spacing: 5px;
+  display: flex;
   text-transform: uppercase;
+  text-align: center;
+  justify-content: space-around;
 }
 
 * {
