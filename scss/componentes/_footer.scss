@@ -1,51 +1,61 @@
 .footerContenedor { 
-    color:  #023e8a ;
-    font-family:'Poppins', sans-serif ;
+
     background-image: linear-gradient(#265da5, #659be2) ;
     letter-spacing: 8px;
     font-size: 20px ;
     width: 100%;
     height: 250px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
+
+    div {
     
 
+        .redes {
 
+            color:  #03045e ;
+            background-color: #48cae4;
+            width: 100% ;
+            height: 100px ;
+            max-width: 1000px ;
+            min-width: 300px ;
+            margin: 0 auto ;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+        
+        
+        
+        }
 
-    .redes {
-
-        width: 100% ;
-        max-width: 1000px ;
-        min-width: 300px ;
-        margin: 0 auto ;
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        align-items: center;
-    
-    
-    
     }
+    
 
-
-    nav {
-
+    .navegacion-footer {
         a {
             color: rgb(233, 236, 56) ;
             font-family: 'Poppins', sans-serif ;
-            font-size: 15px;
-            display: flex;
+            font-size: 20px;
+            letter-spacing: 3px;
+            word-spacing: 5px;
             text-transform: uppercase;
-            text-align: center;
-            justify-content: space-around;
-
             
-
         }
-    }
+
+    
+    
+        
+    
+      
+
+    } 
+
+    
+    
 
 
 

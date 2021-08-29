@@ -275,21 +275,22 @@
 }
 
 .footerContenedor {
-  color: #023e8a;
-  font-family: "Poppins", sans-serif;
   background-image: linear-gradient(#265da5, #659be2);
   letter-spacing: 8px;
   font-size: 20px;
   width: 100%;
   height: 250px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   text-align: center;
 }
-.footerContenedor .redes {
+.footerContenedor div .redes {
+  color: #03045e;
+  background-color: #48cae4;
   width: 100%;
+  height: 100px;
   max-width: 1000px;
   min-width: 300px;
   margin: 0 auto;
@@ -298,14 +299,13 @@
   flex-direction: column;
   align-items: center;
 }
-.footerContenedor nav a {
+.footerContenedor .navegacion-footer a {
   color: #e9ec38;
   font-family: "Poppins", sans-serif;
-  font-size: 15px;
-  display: flex;
+  font-size: 20px;
+  letter-spacing: 3px;
+  word-spacing: 5px;
   text-transform: uppercase;
-  text-align: center;
-  justify-content: space-around;
 }
 
 * {
@@ -331,10 +331,40 @@ h1 {
 
 body {
   background-color: #90e0ef;
+  font-family: "Poppins", sans-serif;
 }
 
 p {
   color: #03045e;
+}
+
+.recomenda-container {
+  background-image: url(../Multimediaok/RECOMENDADOS.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 30px;
+}
+.recomenda-container .recomenda-uno h4 {
+  display: flex;
+  color: red;
+  font-size: 40px;
+  font-style: italic;
+  text-shadow: 5px 5px 10px black;
+  align-items: center;
+}
+.recomenda-container .recomenda-dos h4 {
+  display: flex;
+  color: red;
+  font-size: 80px;
+  text-shadow: 10px 10px 15px black;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */

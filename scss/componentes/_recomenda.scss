@@ -1,0 +1,49 @@
+.recomenda-container {
+
+    background-image: url(../Multimediaok/RECOMENDADOS.png) ;
+    background-position: center center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 auto ;
+    padding: 30px;
+    
+    
+    
+
+
+    .recomenda-uno h4 {
+        display: flex;
+        color: red;
+        font-size: 40px;
+        font-style: italic;
+        text-shadow:  5px 5px 10px black;
+        align-items: center;
+
+        
+
+        
+    
+    }
+
+    .recomenda-dos h4 {
+        display: flex;
+        color: red;
+        font-size: 80px;
+        text-shadow:  10px 10px 15px black;
+        align-items: center;
+        
+        
+    }
+
+
+
+    
+
+    
+
+}
