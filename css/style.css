@@ -161,11 +161,11 @@
   font-family: "Poppins", sans-serif;
   background-color: #48cae4;
   padding: 20px;
-  border: 5px solid black;
 }
 
 .galeria {
-  background-image: linear-gradient(#265da5, #659be2);
+  background-color: #caf0f8;
+  border: 5px solid black;
   width: 80%;
   margin: 0 auto;
   padding: 30px;
@@ -211,48 +211,46 @@
   }
 }
 
-.titulo-osteo {
-  color: #03045e;
-  font-family: "Poppins", sans-serif;
+.contenedor-padre {
+  width: 100%;
+  height: 800px;
+  background-color: #caf0f8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contenedor-padre .bioseguridad img {
+  width: 500px;
+  height: auto;
+  margin: 30px;
+  padding: auto;
+  display: flex;
+  align-items: center;
+}
+.contenedor-padre .contenedor-osteo {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor-padre .contenedor-osteo .contenido-osteo {
+  background-color: #48cae4;
+  font-size: 20px;
+  width: 600px;
+  height: 400px;
+  margin: 30px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contenedor-padre .contenedor-osteo .contenido-osteo .titulo-osteo {
+  color: #023e8a;
   background-color: #0077b6;
   font-size: 30px;
 }
-@media screen and (max-width: 740px) {
-  .titulo-osteo {
-    font-size: 10px;
-  }
-}
-
-.infoOsteopatia {
-  height: 500px;
-  background-image: linear-gradient(#265da5, #659be2);
-}
-.infoOsteopatia .row iframe {
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-  padding: 30px;
-}
-@media screen and (max-width: 740px) {
-  .infoOsteopatia .row iframe {
-    max-width: 100%;
-    height: auto;
-  }
-}
-.infoOsteopatia .row .contenido-osteo {
-  color: #240625;
-  font-family: "Poppins", sans-serif;
-  font-size: 18px;
-  letter-spacing: 5px;
-  margin: 0 auto;
-  padding: 30px;
-}
-@media screen and (max-width: 740px) {
-  .infoOsteopatia .row .contenido-osteo {
-    font-size: 10px;
-  }
-}
-
 #contacto-container {
   height: 500px;
   font-family: "Poppins", sans-serif;
@@ -271,7 +269,7 @@
 }
 #contacto-container iframe {
   max-width: 100%;
-  height: 300px;
+  height: 250px;
 }
 
 .footerContenedor {
@@ -279,7 +277,7 @@
   letter-spacing: 8px;
   font-size: 20px;
   width: 100%;
-  height: 250px;
+  height: 200px;
   margin: 0 auto;
   padding: 20px;
   display: flex;
@@ -288,9 +286,9 @@
 }
 .footerContenedor div .redes {
   color: #03045e;
-  background-color: #48cae4;
+  background-color: #caf0f8;
   width: 100%;
-  height: 100px;
+  height: 80px;
   max-width: 1000px;
   min-width: 300px;
   margin: 0 auto;
@@ -298,6 +296,7 @@
   text-align: center;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .footerContenedor .navegacion-footer a {
   color: #e9ec38;
@@ -330,7 +329,7 @@ h1 {
 }
 
 body {
-  background-color: #90e0ef;
+  background-color: #fff;
   font-family: "Poppins", sans-serif;
 }
 
