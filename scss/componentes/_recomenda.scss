@@ -11,6 +11,8 @@
     flex-wrap: wrap;
     margin: 0 auto ;
     padding: 30px;
+    max-width: 1000px ;
+    min-width: 300px;
     
     
     
@@ -23,8 +25,9 @@
         font-style: italic;
         text-shadow:  5px 5px 10px black;
         align-items: center;
-
-        
+        max-width: 1000px ;
+        min-width: 250px;
+       
 
         
     
@@ -36,9 +39,19 @@
         font-size: 80px;
         text-shadow:  10px 10px 15px black;
         align-items: center;
+        max-width: 1000px ;
+        min-width: 250px;
+
+        @media screen and (max-width: 740px) {
+
+            font-size: 50px ;
+      
+        } 
+        
         
         
     }
+
 
 
 
