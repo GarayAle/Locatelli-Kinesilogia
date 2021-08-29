@@ -15,7 +15,7 @@
   background-size: auto;
   background-origin: padding-box;
   background-clip: border-box;
-  width: 100%;
+  width: 99%;
   z-index: 999;
   position: fixed;
 }
@@ -190,25 +190,33 @@
   width: 100%;
   height: 100%;
 }
+@media screen and (max-width: 640px) {
+  .galeria .instalaciones-contenedor .imagenes .img {
+    width: 100%;
+    height: 50%;
+  }
+}
 
 #obrassociales-contenedor {
   height: 450px;
   background-image: url(../Multimediaok/logos-obrassociales.jpg);
-  background-position: top;
+  background-position: center;
   background-size: 90%;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 1000px;
+  min-width: 300px;
 }
 #obrassociales-contenedor .encabezado-obrassociales {
   color: #023e8a;
   font-family: "Poppins", sans-serif;
   background-color: #0077b6;
   font-size: 30px;
-}
-@media screen and (max-width: 740px) {
-  #obrassociales-contenedor #obrassociales-contenedor .encabezado-obrassociales {
-    width: 80%;
-    height: auto;
-  }
 }
 
 .contenedor-padre {
@@ -217,40 +225,78 @@
   background-color: #caf0f8;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1000px;
+  min-width: 250px;
 }
-.contenedor-padre .bioseguridad img {
-  width: 500px;
-  height: auto;
-  margin: 30px;
-  padding: auto;
+.contenedor-padre .titulo-osteo {
+  color: #023e8a;
+  background-color: #0077b6;
+  font-size: 30px;
+  margin: auto;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 740px) {
+  .contenedor-padre .titulo-osteo {
+    font-size: 20px;
+  }
 }
 .contenedor-padre .contenedor-osteo {
+  margin: 0 auto;
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
+  min-width: 250px;
 }
 .contenedor-padre .contenedor-osteo .contenido-osteo {
   background-color: #48cae4;
   font-size: 20px;
-  width: 600px;
-  height: 400px;
-  margin: 30px;
-  padding: 5px;
+  width: 90%;
+  height: 300px;
+  padding: 20px;
+  margin: 20px;
   display: flex;
   flex-wrap: wrap;
 }
-.contenedor-padre .contenedor-osteo .contenido-osteo .titulo-osteo {
-  color: #023e8a;
-  background-color: #0077b6;
-  font-size: 30px;
+@media screen and (max-width: 740px) {
+  .contenedor-padre .contenedor-osteo .contenido-osteo {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    min-width: 250px;
+    flex-wrap: wrap;
+  }
 }
+@media screen and (max-width: 740px) {
+  .contenedor-padre .contenedor-osteo {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1000px;
+    min-width: 250px;
+  }
+}
+@media screen and (max-width: 740px) {
+  .contenedor-padre .video {
+    display: none;
+  }
+}
+
 #contacto-container {
   height: 500px;
   font-family: "Poppins", sans-serif;
