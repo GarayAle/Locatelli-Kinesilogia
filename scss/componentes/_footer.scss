@@ -13,7 +13,6 @@
 
     div {
     
-
         .redes {
 
             color:  #03045e ;
@@ -29,8 +28,7 @@
             align-items: center;
             justify-content: center;
             
-        
-        
+
         
         }
 
@@ -56,10 +54,12 @@
 
     } 
 
-    
-    
+    @media screen and (max-width: 740px) {
 
+        height: 300px;
 
+            
+    } 
 
             
     
