@@ -1,42 +1,57 @@
 .galeria {
+    display: flex;
+    flex-direction: column;
     background-color: #caf0f8;
     border: 5px solid black;
     width: 80%;
-    margin: 0 auto;
-    padding: 30px;
+    height: 700px;
+    margin: 50px auto ;
+    padding: 20px;
 
     .encabezado-instalaciones {
-        color: #023e8a ;
+        color: #fff ;
         font-family:'Poppins', sans-serif ;
         background-color: #0077b6;
         text-transform: uppercase;
         font-size: 30px;
         text-align: center;
     }
+    
     .instalaciones-contenedor {
+        display: flex;
+        justify-content: center;
         height: 700px;
-        width: 50%;
-        margin: 0 auto;
+        width: 60%;
+        padding: 30px;
+
 
         .imagenes {
+         
             height: 600px;
         }
 
         .imagenes .img {
-            width: 100%;
-            height: 100%;
+            width: 80%;
+            height: 80% ;
 
         }
+
         @media screen and (max-width: 740px) {
 
             
-            .imagenes .img {
-                width: 100%;
-                height: 50%;
+            .imagenes  {
                 
-
+             
+                width: 200px;
+                height: 400px ;
+                
+                
+                
+    
             }
         }
+
+ 
 
 
     }
