@@ -422,7 +422,7 @@ p {
   max-width: 1000px;
   min-width: 250px;
 }
-.recomenda-container ss .recomenda-dos h4 {
+.recomenda-container .recomenda-dos h4 {
   display: flex;
   color: red;
   font-size: 80px;
@@ -432,7 +432,7 @@ p {
   min-width: 250px;
 }
 @media screen and (max-width: 740px) {
-  .recomenda-container ss .recomenda-dos h4 {
+  .recomenda-container .recomenda-dos h4 {
     font-size: 50px;
   }
 }
