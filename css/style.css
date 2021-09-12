@@ -348,6 +348,12 @@
   align-items: center;
   justify-content: center;
 }
+.footerContenedor div .redes .fab.fa-instagram {
+  color: #c13584;
+}
+.footerContenedor div .redes .fab.fa-facebook-square {
+  color: #3b5998;
+}
 .footerContenedor .navegacion-footer a {
   color: #fff;
   font-family: "Poppins", sans-serif;
