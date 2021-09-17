@@ -24,13 +24,17 @@
         width: 60%;
         padding: 30px;
 
+        
+
 
         .imagenes {
          
             height: 600px;
+            object-fit: cover;
         }
 
         .imagenes .img {
+            object-fit: cover;
             width: 80%;
             height: 80% ;
 
@@ -40,15 +44,15 @@
 
             
             .imagenes  {
-                
-             
-                width: 200px;
+                min-width: max-content;
+                width: 400px;
                 height: 400px ;
                 
-                
-                
+            
     
             }
+
+
         }
 
  
