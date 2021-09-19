@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 /*ANIDAMIENTO*/
-
-/*HEADER*/
 .navbar-brand img {
   background-color: #ffd60a;
   border-radius: 100%;
@@ -36,7 +34,6 @@
   }
 }
 
-/*CAROUSEL*/
 .carousel-contenedor .carousel-inner img {
   width: 100%;
   max-height: 460px;
@@ -50,7 +47,6 @@
   height: 400px;
 }
 
-/*BTN WSP*/
 .btn-wsp {
   position: fixed;
   width: 60px;
@@ -71,7 +67,6 @@
   background: #20ba5a;
 }
 
-/*NOSOTROS*/
 #contenedorNosotros {
   background-color: #0096c7;
   padding: 20px;
@@ -154,7 +149,6 @@
   transform: scale(2, 2);
 }
 
-/*CARDS*/
 .card-contenedor {
   color: #023e8a;
   font-family: "Poppins", sans-serif;
@@ -163,13 +157,12 @@
   display: flex;
 }
 
-/*INSTALACIONES*/
 .galeria {
   display: flex;
   flex-direction: column;
   background-color: #caf0f8;
   border: 5px solid black;
-  width: 80%;
+  width: 90%;
   height: 700px;
   margin: 50px auto;
   padding: 20px;
@@ -199,20 +192,19 @@
   height: 80%;
 }
 @media screen and (max-width: 740px) {
-  .galeria .instalaciones-contenedor .imagenes {
-    min-width: max-content;
-    width: 400px;
-    height: 400px;
+  .galeria .instalaciones-contenedor .imagenes .img {
+    object-fit: cover;
+    width: 100%;
+    height: 50%;
   }
 }
 @media screen and (max-width: 740px) {
   .galeria {
-    height: 450px;
+    height: 500px;
     width: 100%;
   }
 }
 
-/*OBRAS SOCIALES*/
 #obrassociales-contenedor {
   height: 450px;
   background-image: url(../Multimediaok/logos-obrassociales.png);
@@ -236,7 +228,6 @@
   font-size: 30px;
 }
 
-/*OSTEOPATIA*/
 .contenedor-padre {
   width: 100%;
   height: 800px;
@@ -317,7 +308,6 @@
   }
 }
 
-/*CONTACTO*/
 #contacto-container {
   height: 500px;
   font-family: "Poppins", sans-serif;
@@ -340,7 +330,6 @@
   height: 250px;
 }
 
-/*FOOTER*/
 .footerContenedor {
   background-image: linear-gradient(#265da5, #659be2);
   letter-spacing: 8px;
@@ -390,7 +379,6 @@
   }
 }
 
-/*GLOBALES*/
 * {
   margin: 0;
   padding: 0;
@@ -427,7 +415,6 @@ p {
   color: #03045e;
 }
 
-/*RECOMENDA*/
 .recomenda-container {
   background-image: url(../Multimediaok/RECOMENDADOS.png);
   background-position: center;

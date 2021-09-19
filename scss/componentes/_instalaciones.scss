@@ -3,7 +3,7 @@
     flex-direction: column;
     background-color: #caf0f8;
     border: 5px solid black;
-    width: 80%;
+    width: 90%;
     height: 700px;
     margin: 50px auto ;
     padding: 20px;
@@ -24,9 +24,7 @@
         width: 60%;
         padding: 30px;
 
-        
-
-
+   
         .imagenes {
          
             height: 600px;
@@ -40,33 +38,26 @@
 
         }
 
+            
         @media screen and (max-width: 740px) {
 
-            
-            .imagenes  {
-                min-width: max-content;
-                width: 400px;
-                height: 400px ;
                 
+            .imagenes .img {
+                object-fit: cover;
+                width: 100%;
+                height: 50%;
             
-    
             }
 
-
-        }
-
- 
+    
+        } 
 
 
     }
 
     @media screen and (max-width: 740px) {
-
-        height: 450px;
+        height: 500px;
         width: 100%;
-
-            
-
   
     } 
 
